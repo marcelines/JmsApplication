@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior" tools:showIn="@layout/app_bar_main"
+    tools:context=".MainActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llHospitalar"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_hospitalar"
+                        android:id="@+id/etHospitalar"
+                        android:layout_gravity="center_vertical" />
+
+                    <view
+                        android:id="@+id/rvHospitalar"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llClinico"
+                    android:layout_below="@id/llHospitalar"
+                    android:layout_marginTop="10dp"
+                    >
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_clinico"
+                        android:id="@+id/etClinico"
+                        android:layout_gravity="center_vertical" />
+                    <view
+                        android:id="@+id/rvClinico"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llFisio"
+                    android:layout_below="@id/llClinico"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_fisio"
+                        android:id="@+id/etFisio"
+                        android:layout_gravity="center_vertical" />
+                    <view
+                        android:id="@+id/rvFisio"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llGeriatico"
+                    android:layout_below="@id/llFisio"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_geriatico"
+                        android:id="@+id/etGeriatico"
+                        android:layout_gravity="center_vertical" />
+                    <view
+                        android:id="@+id/rvGeriatico"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llAjudas"
+                    android:layout_below="@id/llGeriatico"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_ajudas"
+                        android:id="@+id/etAjudas"
+                        android:layout_gravity="center_vertical" />
+                    <view
+                        android:id="@+id/rvAjudas"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="200dp"
+                    android:id="@+id/llDiversos"
+                    android:layout_below="@id/llAjudas"
+                    android:layout_marginTop="10dp"
+                    >
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/et_diversos"
+                        android:id="@+id/etDiversos"
+                        android:layout_gravity="center_vertical" />
+                    <view
+                        android:id="@+id/rvDiversos"
+                        class="android.support.v7.widget.RecyclerView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        />
+                </LinearLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+</RelativeLayout>

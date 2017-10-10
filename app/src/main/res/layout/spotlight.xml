@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:id="@+id/rlTopoPesquisa">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@android:drawable/ic_menu_search"
+        android:layout_alignBottom="@+id/etPesquisa"
+        android:layout_toStartOf="@+id/etPesquisa" />
+
+<EditText
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/etPesquisa"
+    android:background="@drawable/rounded_edittext"
+    android:textColor="@color/branco"
+    android:textIsSelectable="true"
+    android:textSize="20sp"
+    android:padding="5dp"
+    android:layout_marginRight="10dp"
+    android:focusableInTouchMode="true"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentEnd="true" />
+</RelativeLayout>

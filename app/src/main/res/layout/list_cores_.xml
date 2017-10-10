@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:id="@+id/rlCor">
+
+            <ImageView
+                android:layout_width="220dp"
+                android:layout_height="100dp"
+                android:paddingBottom="30dp"
+                android:layout_marginStart="5dp"
+                android:id="@+id/ivCor"
+                android:layout_alignParentLeft="true"
+
+                 />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:textSize="10dp"
+                android:paddingRight="10dp"
+                android:text="Referência"
+                android:id="@+id/tvRef"
+                android:layout_gravity="bottom"
+                android:background="@color/cinzaJms"
+                android:textColor="@color/branco"
+                android:gravity="center_vertical|right"
+                android:layout_alignBottom="@+id/ivCor"
+                android:layout_alignEnd="@+id/ivCor"
+                android:layout_toEndOf="@+id/tvCor" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:paddingLeft="10dp"
+                android:textSize="10dp"
+                android:text="Cor"
+                android:id="@+id/tvCor"
+                android:layout_gravity="bottom"
+                android:background="@color/cinzaJms"
+                android:textColor="@color/branco"
+                android:gravity="center_vertical|left"
+                android:layout_alignBottom="@+id/ivCor"
+                android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>

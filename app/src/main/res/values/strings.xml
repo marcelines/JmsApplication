@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">JMS</string>
+    <string name="carregando">Carregando...</string>
+    <string name="title_activity_splash_screen">JMS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="break_string"><![CDATA[ <br> ]]></string>
+    <string-array name="vendedores_array">
+        <item>Mónica Pereira</item>
+        <item>Jorge Henriques</item>
+        <item>Jorge Bexiga</item>
+        <item>Paula Silva</item>
+    </string-array>
+    <string-array name="contacto_array">
+        <item>Cliente</item>
+        <item>Fornecedor</item>
+        <item>Pot. Cl. Private Label</item>
+        <item>Pot. Agente</item>
+        <item>Pot. Cliente</item>
+        <item>Pot. Distribuidor</item>
+        <item>Pot. Parceiro</item>
+        <item>Univ. / Médico / K.O.L</item>
+        <item>Outro</item>
+    </string-array>
+</resources>

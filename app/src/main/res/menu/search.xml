@@ -1,0 +1,32 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <group>
+        <item
+            android:id="@+id/idioma"
+            android:title="Idioma"
+            android:checkable="false"
+            />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_pt"
+            android:checked="true"
+            android:title="Português"
+            />
+        <item android:id="@+id/nav_en"
+
+            android:title="English"
+            />
+        <item android:id="@+id/nav_fr"
+
+            android:title="Français"
+            />
+        <item android:id="@+id/nav_it"
+
+            android:title="Italiano"
+            />
+    </group>
+
+
+</menu>

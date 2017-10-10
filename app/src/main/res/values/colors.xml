@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00355F</color>
+    <color name="colorPrimaryDark">#00355F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="branco">#FFFFFF</color>
+    <color name="azulLogo">#00355F</color>
+    <color name="azulJms">#CC2f6E9A</color>
+    <color name="cinzaJms">#CC868686</color>
+    <color name="cinza">#d3d3d3</color>
+    <color name="preto">#000</color>
+    <color name="default_screen_bg">#f9f9f9</color>
+    <color name="rounded_container_bg">#222222</color>
+    <color name="rounded_container_border">#3b3f44</color>
+    <color name="light_gray_header_color">#646663</color>
+</resources>

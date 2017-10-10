@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/branco"
+    tools:context="com.meedbrand.pt.jmsapplication.EditaNoteActivity">
+
+
+    <EditText
+        android:id="@+id/etEmpresa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:hint="Insira o nome da empresa" />
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o nome do cliente"
+        android:layout_below="@+id/etEmpresa"
+        />
+
+    <EditText
+        android:id="@+id/etContacto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira um contacto"
+        android:layout_below="@+id/etNome" />
+    <EditText
+        android:id="@+id/etPais"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Insira o país"
+        android:layout_below="@+id/etContacto" />
+
+    <EditText
+        android:id="@+id/etTexto"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:hint="Insira o seu texto"
+        android:layout_below="@+id/etPais"
+        android:gravity="left"
+        android:layout_above="@+id/spinnerVendedor" />
+
+    <RatingBar
+        android:layout_below="@id/etTexto"
+        android:id="@+id/ratingBar5"
+        android:scaleX="0.5"
+        android:scaleY="0.5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="9"
+        android:stepSize="1"
+        android:layout_centerHorizontal="true" />
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/spinnerTipo"
+        android:layout_below="@+id/ratingBar5"
+        android:layout_alignParentStart="true" />
+    <Spinner
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:id="@+id/spinnerVendedor"
+        android:layout_above="@+id/btnGuardar"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp" />
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Guardar"
+        android:layout_above="@+id/ibMail"
+        android:layout_alignParentLeft="true" />
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ibMail"
+        android:src="@drawable/mail"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/tvRating"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/ratingBar5"
+        android:layout_centerHorizontal="true"
+         />
+
+
+</RelativeLayout>
